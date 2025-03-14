@@ -3,23 +3,26 @@ import Card from "./Card";
 
 import Futher from "./Futher";
 import New from "./New";
+import gamingGrowth from "../assets/images/image-gaming-growth.jpg";
+import retroPcs from "../assets/images/image-retro-pcs.jpg";
+import topLaptops from "../assets/images/image-top-laptops.jpg";
 
 function Home() {
   const [cardData, setData] = useState([
     {
-      url: "../assets/images/image-gaming-growth.jpg",
+      url: gamingGrowth,
       NumberVal: "01",
       headerTitel: "Gaming Growth",
       desc: "The gaming industry is growing rapidly, with more people than ever playing games."
     },
     {
-      url: "../assets/images/image-retro-pcs.jpg",
+      url: retroPcs,
       NumberVal: "02",
       headerTitel: "Retro PCs",
       desc: "We take a look at the history of personal computers, and how they changed the world."
     },
     {
-      url: "../assets/images/image-top-laptops.jpg",
+      url: topLaptops,
       NumberVal: "03",
       headerTitel: "Prototype",
       desc: "From the Apple II to the latest smartphones, we break down the history of personal computing."
