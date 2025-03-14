@@ -7,19 +7,19 @@ import New from "./New";
 function Home() {
   const [cardData, setData] = useState([
     {
-      url: "../src/assets/images/image-gaming-growth.jpg",
+      url: "../assets/images/image-gaming-growth.jpg",
       NumberVal: "01",
       headerTitel: "Gaming Growth",
       desc: "The gaming industry is growing rapidly, with more people than ever playing games."
     },
     {
-      url: "../src/assets/images/image-retro-pcs.jpg",
+      url: "../assets/images/image-retro-pcs.jpg",
       NumberVal: "02",
       headerTitel: "Retro PCs",
       desc: "We take a look at the history of personal computers, and how they changed the world."
     },
     {
-      url: "../src/assets/images/image-top-laptops.jpg",
+      url: "../assets/images/image-top-laptops.jpg",
       NumberVal: "03",
       headerTitel: "Prototype",
       desc: "From the Apple II to the latest smartphones, we break down the history of personal computing."
