@@ -1,4 +1,4 @@
-import img from "../src/assets/images/image-web-3-desktop.jpg";
+import img from "../assets/images/image-web-3-desktop.jpg";
 import Button from "./Button";
 function Futher() {
   return (
